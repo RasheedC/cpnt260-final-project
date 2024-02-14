@@ -1,0 +1,39 @@
+.content {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/004/924/798/non_2x/clothes-line-seamless-pattern-vector.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000000;
+  height: 100vh;
+}
+
+.content h1 {
+  font-size: 40px;
+}
+
+.content p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.content button {
+  margin-top: 30px;
+  padding: 5px 10px;
+  border: none;
+  background: #ffffff;
+  color: #000000;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+.content button:hover {
+  cursor: pointer;
+  background-color: #feed00;
+  color: rgb(0, 0, 0);
+}
